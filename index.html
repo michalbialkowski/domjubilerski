@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dom Jubilerski</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/core/bootstrap-grid.compiled.css">
+    <link rel="stylesheet" href="assets/css/core/bootstrap-reboot.compiled.css">
+    <link rel="stylesheet" href="assets/css/core/bootstrap.compiled.css">
+    <link rel="stylesheet" href="assets/css/components/ratio.compiled.css">
+    <link rel="stylesheet" href="assets/css/components/svg.compiled.css">
+    <link rel="stylesheet" href="assets/css/components/fullscreen-modal.compiled.css">
+    <link rel="stylesheet" href="assets/css/fx/font-weight.compiled.css">
+    <link rel="stylesheet" href="assets/css/fx/opacity.compiled.css">
+    <link rel="stylesheet" href="assets/css/fx/sizes.compiled.css">
+    <link rel="stylesheet" href="assets/css/page.compiled.css">
+</head>
+
+<body>
+    <div>
+        <header class="shadow position-relative" style="z-index: 100;">
+            <div class="text-uppercase text-black-50 bg-light pt-2">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-auto">
+                            <div>
+                                <p class="mb-2"><small><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-truck mr-2">
+                                            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path>
+                                        </svg><span>Darmowa wysyłka w 24H</span></small></p>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div>
+                                <p class="mb-2"><small><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-award mr-2">
+                                            <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"></path>
+                                            <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"></path>
+                                        </svg><span>Bezterminowy serwis</span></small></p>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div>
+                                <p class="mb-2"><small><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-hexagon mr-2">
+                                            <path d="M14 4.577v6.846L8 15l-6-3.577V4.577L8 1l6 3.577zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"></path>
+                                        </svg><span>Darmowa korekta rozmiarów</span></small></p>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div>
+                                <p class="mb-2"><small><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-patch-check mr-2">
+                                            <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"></path>
+                                            <path d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911l-1.318.016z"></path>
+                                        </svg><span>Bezpłatny zwrot</span></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <nav class="navbar navbar-light navbar-expand-md">
+                    <div class="container"><a class="navbar-brand" href="#"><img class="height--80" src="https://domjubilerski.aia.pl/img/test-logo-1583420645.jpg"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
+                            <form class="form-inline mr-3">
+                                <div class="input-group border">
+                                    <div class="input-group-prepend"><button class="btn text-black-50" type="button"><i class="fas fa-search"></i></button></div><input class="form-control border-0" type="text">
+                                </div>
+                            </form>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-geo-alt">
+                                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"></path>
+                                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
+                                        </svg></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
+                                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
+                                        </svg></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-handbag">
+                                            <path d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2zm3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6h4z"></path>
+                                        </svg></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div>
+                <nav class="navbar navbar-light navbar-expand-md bg-danger">
+                    <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navcol-2">
+                            <ul class="navbar-nav justify-content-between w-100 font-weight-bold">
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Biżuteria</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Handmade</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Ślub</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Mennica</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Home i Akcesoria</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Dom Jubilerski</a></li>
+                                <li class="nav-item"><a class="nav-link text-white h5 mb-0" href="#">Kontakt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="overflow-hidden">
+                <div>
+                    <div style="background: url(&quot;https://domjubilerski.aia.pl/modules/fieldslideshow/images/aia%206%20flat_bis_bis-276.jpg&quot;) center / cover;">
+                        <div class="py--60">
+                            <div class="container">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-4">
+                                        <h1 class="text-dark d-flex flex-column h2 mb-4"><span class="d-block line-height-none">Biżuteria</span><span class="text-danger d-block display-4 line-height-none">najwyższej</span><span class="text-danger d-block display-4 line-height-none">próby</span></h1>
+                                        <p class="lead text-secondary line-height-normal mb--25" style="font-weight: 400;">Biżuteria o niepowtarzalnym stylu wykonana przez najlepszych artystów rzemiosła. Sprawdź, aby poczuć jakość marki A&amp;A na własnej skórze</p>
+                                        <div><button class="btn btn-outline-primary text-uppercase rounded-pill px-3" type="button">Kup teraz</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light py--60 section--light">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <h2 class="text-primary h1 mb-3">Dom Jubilerski A&amp;A</h2>
+                                <p class="lead text-black-50 font-weight-normal">Niepowtarzalność naszej oferty to klucz do szczęścia nawet najbardziej wymagającego klienta. Wierzymy, że dzięki czytelnej nawigacji szybko i sprawnie znajdą Państwo coś dla siebie.</p>
+                            </div>
+                            <div class="col">
+                                <div class="row row-cols-3">
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/13597-home_default/pierscionek-zloty-z-brylantem-043-ct.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Pierścionki</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/14181-home_default/bransoletka-zlota.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Bransolety</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/14263-home_default/przywieszka-zlota-z-tanzanitem-i-brylantami.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Przywieszki</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/11325-home_default/naszyjnik-zloty.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Naszyjniki</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/13928-home_default/naszyjnik-srebrny-z-bursztynem.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Broszki</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col py-3">
+                                        <div class="card ratio ratio-4-3 rounded-0 bg-transparent">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column">
+                                                    <div class="ratio ratio-16-9 width--160 mb-4">
+                                                        <div><img class="img-fluid img--multiply" src="https://domjubilerski.aia.pl/14451-home_default/kolczyki-z-rozowego-zlota-z-morganitami-i-brylantami.jpg"></div>
+                                                    </div>
+                                                    <p class="text-uppercase text-center text-muted mb-0 font-weight-normal">Kolczyki</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt--30 line--horizontal"><button class="btn btn-primary btn-lg text-white mt-3 mt-sm-0 rounded-0" type="button"><span class="text-nowrap text-uppercase">Zobacz inne kategorie</span></button></div>
+                    </div>
+                </div>
+                <div class="text-center text-white ratio ratio-5-2" style="background: url(&quot;https://domjubilerski.aia.pl/modules/ph_simpleblog/featured/2.jpg&quot;) center / cover;">
+                    <div style="background: rgba(0,0,0,0.5);">
+                        <div class="container">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-5 py-3">
+                                    <h2 class="display-4 d-flex flex-column h1 mb-4"><small class="h2 mb-0">Wybierz</small><span class="text-primary line-height-none">idealny prezent</span></h2>
+                                    <p class="lead font-weight-normal mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nisl purus, mattis vitae eros pharetra</p>
+                                    <div><button class="btn btn-outline-primary text-uppercase rounded-pill px-3" type="button">Kup teraz</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py--60">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-4">
+                            <div>
+                                <h2 class="text-center d-flex flex-column h1 mb-0"><span class="mb-1">Najlepiej oceniane</span><small class="h4 mb-0">przez naszych Klientów</small></h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt--30 line--horizontal"><button class="btn btn-outline-dark btn-lg mt-3 mt-sm-0 rounded-0" type="button"><span class="text-nowrap text-uppercase">Zobacz najlepiej oceniane</span></button></div>
+                    </div>
+                </div>
+                <div class="text-dark bg-light py--60 section--light">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-4">
+                            <div>
+                                <h2 class="text-center d-flex flex-column h1 mb-0"><small class="h4 mb-1">Nasz</small><span>Blog jubilerski</span></h2>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row justify-content-start">
+                                <div class="col-3 d-flex py-3">
+                                    <div class="card border-0 bg-transparent">
+                                        <div>
+                                            <div class="ratio ratio-3-2">
+                                                <div><img src="https://domjubilerski.aia.pl/modules/ph_simpleblog/covers/4-thumb.jpg"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column p-0 mt-3">
+                                            <div>
+                                                <h4 class="h5">Złoto</h4>
+                                                <p>Złoto od wieków fascynuje ludzi. W przeciwieństwie do żelaza, miedzi czy srebra nie zmienia koloru. Jest plastyczne, więc można z niego tworzyć nawet najbardziej fantazyjne formy,&nbsp;idealnie nadaje się do osadzania w nim kamieni.<br></p>
+                                            </div>
+                                            <div class="d-flex"><a class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Czytaj dalej</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex py-3">
+                                    <div class="card bg-transparent border-0">
+                                        <div>
+                                            <div class="ratio ratio-3-2">
+                                                <div><img src="https://domjubilerski.aia.pl/modules/ph_simpleblog/covers/3-thumb.jpg"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column p-0 mt-3">
+                                            <div>
+                                                <h4 class="h5">Biżuteria wykonana ręcznie</h4>
+                                                <p>Biżuteria wykonana ręcznie jest powszechnie uznawana za dobro luksusowe. Nie jest może niezbędna do codziennego funkcjonowania, ale stanowi ważny element naszej stylizacji.<br></p>
+                                            </div>
+                                            <div class="d-flex"><a class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Czytaj dalej</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex py-3">
+                                    <div class="card bg-transparent border-0">
+                                        <div>
+                                            <div class="ratio ratio-3-2">
+                                                <div><img src="https://domjubilerski.aia.pl/modules/ph_simpleblog/covers/2-thumb.jpg"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column p-0 mt-3">
+                                            <div>
+                                                <h4 class="h5">Jak wybrać idealny pierścionek zaręczynowy?</h4>
+                                                <p>Gdy myślimy o pierścionku zaręczynowym od razu przychodzi nam do głowy jednokamieniowy, z brylantem w czterech lub sześciu łapkach.<br></p>
+                                            </div>
+                                            <div class="d-flex"><a class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Czytaj dalej</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 d-flex py-3">
+                                    <div class="card bg-transparent border-0">
+                                        <div>
+                                            <div class="ratio ratio-3-2">
+                                                <div><img src="https://domjubilerski.aia.pl/modules/ph_simpleblog/covers/1-thumb.jpg"></div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body d-flex flex-column p-0 mt-3">
+                                            <div>
+                                                <h4 class="h5">Biżuteria w stylu Art déco</h4>
+                                                <p>Art déco to styl w sztuce z okresu międzywojnia. Charakteryzował się formalną dyscypliną, powtarzalnością elementów i dominującą geometrią. W biżuterii był uosobieniem elegancji i luksusu. Złoto, platyna, brylanty, perły…<br></p>
+                                            </div>
+                                            <div class="d-flex"><a class="btn btn-outline-primary btn-sm d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Czytaj dalej</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt--30 line--horizontal"><button class="btn btn-outline-dark btn-lg mt-3 mt-sm-0 rounded-0" type="button"><span class="text-nowrap text-uppercase">Czytaj więcej na blogu</span></button></div>
+                    </div>
+                </div>
+                <div class="py--60">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-4">
+                            <div>
+                                <h2 class="text-center d-flex flex-column h1 mb-0"><small class="h4 mb-1">Biżuteria, która</small><span>Może Ci się spodobać</span></h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center flex-nowrap">
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt--30 line--horizontal"><button class="btn btn-outline-dark btn-lg mt-3 mt-sm-0 rounded-0" type="button"><span class="text-nowrap text-uppercase">Zobacz więcej propozycji</span></button></div>
+                    </div>
+                </div>
+                <div class="py--60 border-top">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-4">
+                            <div>
+                                <h2 class="text-center d-flex flex-column h1 mb-0"><small class="h4 mb-1">Odwiedź</small><span>Nasze Salony</span></h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col d-flex flex-column">
+                                <div class="row">
+                                    <div class="col d-flex py-3">
+                                        <div class="card bg-light d-flex flex-row w-100">
+                                            <div class="ratio w--33">
+                                                <div><img src="https://domjubilerski.aia.pl/img/cms/salony/piotrkowska46-min.jpg"></div>
+                                            </div>
+                                            <div class="card-body d-flex align-items-center">
+                                                <div class="w-100">
+                                                    <h6 class="text-muted mb-1">Salon</h6>
+                                                    <h4>Dom Jubilerski A&amp;A</h4>
+                                                    <p>ul. Pabianicka 245 <br>CH Port Łódź, Łódź</p>
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-2"><strong>Godziny otwarcia:</strong>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Pon. - Sob. 10:00 - 21:00</li>
+                                                                <li class="list-inline-item">Ndz. 10:00 - 20:00<br></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><strong>Kontakt:</strong>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">tel.: +48 792 013 095</li>
+                                                                <li class="list-inline-item">e-mail: port@aia.pl<br></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex py-3">
+                                        <div class="card bg-light d-flex flex-row w-100">
+                                            <div class="ratio w--33">
+                                                <div><img src="https://domjubilerski.aia.pl/img/cms/salony/piotrkowska146-min.jpg"></div>
+                                            </div>
+                                            <div class="card-body d-flex align-items-center">
+                                                <div class="w-100">
+                                                    <h6 class="text-muted mb-1">Salon</h6>
+                                                    <h4>Dom Jubilerski A&amp;A</h4>
+                                                    <p>ul. Pabianicka 245 <br>CH Port Łódź, Łódź</p>
+                                                    <ul class="list-unstyled mb-0">
+                                                        <li class="mb-2"><strong>Godziny otwarcia:</strong>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">Pon. - Sob. 10:00 - 21:00</li>
+                                                                <li class="list-inline-item">Ndz. 10:00 - 20:00<br></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><strong>Kontakt:</strong>
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item">tel.: +48 792 013 095</li>
+                                                                <li class="list-inline-item">e-mail: port@aia.pl<br></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col d-flex py-3">
+                                <div class="card bg-light d-flex flex-row w-100">
+                                    <div class="card-body d-flex align-items-center">
+                                        <div class="w-100">
+                                            <h6 class="text-muted mb-1">Salon</h6>
+                                            <h4>Dom Jubilerski A&amp;A</h4>
+                                            <p>ul. Pabianicka 245 <br>CH Port Łódź, Łódź</p>
+                                            <ul class="list-unstyled mb-0">
+                                                <li class="mb-2"><strong>Godziny otwarcia:</strong>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">Pon. - Sob. 10:00 - 21:00</li>
+                                                        <li class="list-inline-item">Ndz. 10:00 - 20:00<br></li>
+                                                    </ul>
+                                                </li>
+                                                <li><strong>Kontakt:</strong>
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item">tel.: +48 792 013 095</li>
+                                                        <li class="list-inline-item">e-mail: port@aia.pl<br></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="ratio w--33">
+                                        <div><img src="https://domjubilerski.aia.pl/img/cms/salony/piotrkowska60-min.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-light py--60 section--light">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col py-3">
+                                <div class="bg-dark ratio ratio-16-9">
+                                    <div><img src="https://dsc.cloud/Michalbialkowski/aia-movie-2.png"></div>
+                                </div>
+                            </div>
+                            <div class="col-4 py-3">
+                                <h2 class="text-dark d-flex flex-column h1 mb-3"><small class="text-black-50 h3 mb-0">Biżuteria</small><span>wykonana ręcznie</span></h2>
+                                <p class="lead text-black-50 font-weight-normal">Nasi fachowcy w każdy wyrób wkładają wiele serca i pracy, a ręczne wykonanie biżuterii jest gwarantem najwyższej jakości oraz precyzji</p>
+                            </div>
+                        </div>
+                        <div class="row mt--45">
+                            <div class="col-3 py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div class="border-white ratio width--140 rounded-circle overflow-hidden">
+                                            <div><img src="https://domjubilerski.aia.pl/modules/fieldtestimonials/img/908-58-bocelli.jpg?id_test=2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <p class="text-center text-black-50 card-text">Mistrzowie A&amp;A wykonywali złotą brylantową nutkę dla znanego tenora muzyki klasycznej, która widniała w jego marynarce podczas koncertów.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div class="border-white ratio width--140 rounded-circle overflow-hidden border">
+                                            <div><img src="https://domjubilerski.aia.pl/modules/fieldtestimonials/img/779-858-domingo.jpg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <p class="text-center text-black-50 card-text">Mistrzowie A&amp;A wykonywali złotą nutkę z brylantem dla sławnego muzyka, aby zdobiła jego osobowość podczas wspaniałych koncertów.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div class="border-white ratio width--140 rounded-circle overflow-hidden border-0">
+                                            <div><img src="https://domjubilerski.aia.pl/modules/fieldtestimonials/img/275-933-otylia.jpg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <p class="text-center text-black-50 card-text">Dom Jubilerski wykonywał dla Światowej mistrzyni i złotej olimpijki kolekcję biżuterii z akwamarynami nawiązując do niebieskiego oceanu i wody w której nasza mistrzyni zdobywała nagrody.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <div class="border-white ratio width--140 rounded-circle overflow-hidden border">
+                                            <div><img src="https://domjubilerski.aia.pl/modules/fieldtestimonials/img/603-992-papiez.jpg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <p class="text-center text-black-50 card-text">Pracownia A&amp;A tworzyła i przekazała złoty pierścień dla wspaniałego Polaka, Ojca i dobrego człowieka. W podziękowaniu otrzymaliśmy osobiste błogosławieństwo.<br></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="py--60">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-4">
+                            <div>
+                                <h2 class="text-center d-flex flex-column h1 mb-0"><small class="h4 mb-1">Wybrane</small><span>Specjalnie dla Ciebie</span></h2>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8309-home_default/pierscionek-zloty-z-czarnym-brylantem-036-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/8509-home_default/zloty-pierscionek-z-malachitem.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Złoty pierścionek z malachitem<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html">Pierścionek złoty z czarnym brylantem 0,36 CT<br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block mb-0 font-weight-bold">99 999,99 zł</span></div>
+                                                    <div class="col-auto"><small class="text-nowrap text-right text-muted d-block"><span style="text-decoration: line-through;">99 999,99 zł</span></small></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">107,09 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-8 col-md-6 col-lg-4 col-xl-3 d-flex py-3">
+                                <div class="card border-0 bg-transparent">
+                                    <div class="mb-3">
+                                        <div class="ratio border mb-3 product--img">
+                                            <div><img src="https://domjubilerski.aia.pl/9541-home_default/-pierscionek-zloty-z-czarnym-brylantem-029-ct.jpg"></div>
+                                        </div>
+                                        <ul class="list-inline d-flex justify-content-center mb-0">
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: #ccc28c;"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                            <li class="list-inline-item"><button class="btn shadow-sm p-0" type="button"><span class="ratio width--20" style="background: rgb(215,215,215);"><span><span class="d-none">Złoty</span></span></span></button></li>
+                                        </ul>
+                                    </div>
+                                    <div class="card-body d-flex flex-column justify-content-between p-0">
+                                        <h3 class="text-center card-title h5 font-weight-light"><a class="text-secondary" href="product.html"><strong>Pierścionek złoty z czarnym brylantem 0,36 CT</strong><br></a></h3>
+                                        <div class="row no-gutters justify-content-between align-items-center">
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">cena</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-primary d-block font-weight-bold">99 999,99 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row no-gutters justify-content-center align-items-baseline">
+                                                    <div class="col-auto mr-2"><small class="text-nowrap text-left text-muted d-block">rata już od</small></div>
+                                                    <div class="col-auto mr-2"><span class="text-nowrap text-left text-black-50 d-block font-weight-bold">56,05 zł</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 d-flex justify-content-center mt-3"><a class="btn btn-outline-primary d-flex justify-content-center align-items-center px-3 py-2 rounded-pill" role="button" href="product.html"><small class="text-uppercase d-block font-weight-bold">Dodaj do koszyka</small></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt--30 line--horizontal"><button class="btn btn-outline-dark btn-lg mt-3 mt-sm-0 rounded-0" type="button"><span class="text-nowrap text-uppercase">odkryj nasze specjalności</span></button></div>
+                    </div>
+                </div>
+                <div class="bg-light py--60 section--light">
+                    <div class="container">
+                        <div class="d-flex flex-column justify-content-center flex-sm-row align-items-sm-center mb-3">
+                            <h2 class="h1 mb-0">Biżuteria online</h2>
+                        </div>
+                        <div>
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <p class="lead text-center" style="font-weight: 400;">Wszystkie dziedziny naszego życia powoli przenoszą się do sfery online. Zakupy internetowe stają się bardziej popularne od tych robionych stacjonarnie. Branża jubilerska również wkracza w wirtualną przestrzeń. Kupowanie biżuterii online wydaje się rzeczą prostą i przyjemną. W domowym zaciszu możemy zwiedzać świat pełen magii, blasku, piękna i luksusu.<br></p>
+                                    <p class="text-center">Szeroka gama produktów dostępnych w sklepie internetowym Domu Jubilerskiego A&amp;A sprosta oczekiwaniom nawet najbardziej wymagających klientów. W naszej ofercie biżuterii online mogą Państwo znaleźć duży wybór naszyjników, bransoletek, przywieszek, pierścionków, obrączek oraz broszek. Każdy produkt jest gwarantem najwyższej jakości oraz satysfakcji z noszenia. W produkty z działu handmade nasi eksperci wkładają wiele serca i pracy. Każde małe "arcydzieło" jest dopracowywane w najmniejszym szczególe. Biżuteria A&amp;A udawadnia, że wobraźnia potafi zmieniać rzeczywistość, a piękno ukryte jest w detalach.<br></p>
+                                    <p class="text-center">Szukasz idealnego prezentu? W naszym sklepie internetowym zakupisz piękny podarunek dla niej z okazji rocznicy ślubu, urodzin, imienin. Posiadamy również bogatą ofertę pierścionków zaręczynowych. Model z brylantem skradnie serce każdej kobiety. Kupując produkt na prezent z działu handmade masz gwarancję, że ukochana osoba będzie się nim cieszyła przez długie lata. Zamawiając upominek przez internet możesz wybrać opcję dostawy na adres osoby obdarowywanej. Pięknie zapakowana paczuszka będzie doskonałą formą niespodzianki.<br></p>
+                                    <p class="text-center">Za kupowaniem biżuterii online przemawia również wiele innych aspektów. Głównym plusem jest oszczedność czasu oraz możliwość porównania cen, w efekcie znalezienie tej najbardziej konkurencyjnej oferty. Kolejnym atutem internetowych zakupów jest opcja zwrotów, która ułatwia podjęcie właściwej decyzji (jeśli prezent nie przypadnie do gustu zawsze możemy go wymienić na inny lub zwrócić). Przeglądajac nasz sklep internetowy można dowiedzieć się wielu ciekawych informacji odnośnie danego produktu (opis), jego pielegnacji, a także powiększyć zdjecie, który daje nam rzeczywisty odbiór wyrobu. Nic nie stoi na przeszkodzie do tego, aby cieszyć się nowo zakupioną biżuterią online.<br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
